@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "node_characterai": "^1.0.17",
+    "telegraf": "^3.38.0"
+  },
+  "name": "character ai telegraf chatbot",
+  "version": "1.0.0",
+  "description": "Telegram chatbot using Character.Ai",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "character.ai",
+    "telegram bot",
+    "chatbot"
+  ],
+  "author": "Yuu18id",
+  "license": "ISC"
+}

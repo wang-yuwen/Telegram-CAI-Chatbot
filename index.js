@@ -12,7 +12,7 @@ const characterAI = new CharacterAI();
         ctx.reply('Сап, я Игорь Духанин, тру стори, пруфов не будет')
     });
     
-    bot.hears(/Игорь|игорь|ОП|Оп|оп|Духанин|духанин|DukhAInin_bot|Dukhan1n|Духан|Нейродухан|Нейродуханин|НейроДухан|Духан/, async(ctx) => {
+    bot.hears(/Игорь|игорь|ОП|Оп|оп|Духанин|духанин|DukhAInin_bot|Dukhan1n|Духан|Игорян|Нейродухан|Нейродуханин|НейроДухан|Духан/, async(ctx) => {
     const context = ctx.from.first_name;
     const userText = ctx.message.text;
     const textRequest = `${context}: ${userText}`;

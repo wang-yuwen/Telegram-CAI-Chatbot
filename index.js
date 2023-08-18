@@ -11,9 +11,12 @@ const characterAI = new CharacterAI();
     bot.start((ctx) => {
         ctx.reply('Сап, я Игорь Духанин, тру стори, пруфов не будет')
     });
-
+    
     bot.hears(/Игорь|игорь|ОП|Оп|оп|Духанин|духанин|DukhAInin_bot|Dukhan1n|Духан|Нейродухан|Нейродуханин|НейроДухан|Духан/, async(ctx) => {
-        const response = await chat.sendAndAwaitResponse(ctx.message.text, true)
+    const context = ctx.from.first_name;
+    const userText = ctx.message.text;
+    const textRequest = `${context}: ${userText}`;
+    const response = await chat.sendAndAwaitResponse(textRequest, true) 
         ctx.reply(response)
         });
         

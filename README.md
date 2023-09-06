@@ -1,6 +1,6 @@
 # Telegram-CAI-Chatbot
 
-## Как найти Токен Character AI: 
+## Как найти токен Character AI: 
 
 ![image](https://github.com/Wang-Yubang/Telegram-CAI-Chatbot/assets/142516303/1d9bb215-f49c-47ab-9d2d-29d6bf6ece6f)
 

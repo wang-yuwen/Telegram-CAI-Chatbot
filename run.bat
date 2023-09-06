@@ -1,2 +1,2 @@
-cd /d "C:\Program Files\telegrambot\character-ai-telegraf-chatbot-main"
+cd /d "ПУТЬ ДО ПАПКИ С БОТОМ"
 cmd /k node index.js

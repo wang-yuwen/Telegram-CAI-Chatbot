@@ -22,7 +22,7 @@
 ### [Telegraf](https://github.com/telegraf/telegraf) за библиотеку для работы с ботами Telegram
 ### [realcoloride и прочим участникам проекта](https://github.com/realcoloride/node_characterai) за неофициальный API Character AI
 ### [Yuu18id](https://github.com/Yuu18id/character-ai-telegraf-chatbot) за пример кода и вдохновение
-### [MoralGray](https://github.com/MoralGray) за советы и поддержку
+### Сергею за советы и поддержку
 
 
 
